@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background-color: #FFFBF7; /* soft cream */
+  }
+}
+
+/* Simple, beginner-friendly helpers */
+.bg-pastel-cream { background-color: #FFFBF7; }
+.card {
+  border: 1px dashed rgba(0,0,0,0.06);
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+  color: #333;
+}
+.btn-simple {
+  display: inline-block;
+  background: #ff6beb;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-ghost {
+  display: inline-block;
+ 
+  background-color: #FFFBF7;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #333;
+}
+
+/* subtle shadow for small elements */
+.shadow-sm { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+
