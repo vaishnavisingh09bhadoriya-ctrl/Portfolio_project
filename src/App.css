@@ -9,11 +9,11 @@
 
   body {
     font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    background-color: #FFFBF7; /* soft cream */
+    background-color: #FFFBF7; 
   }
 }
 
-/* Simple, beginner-friendly helpers */
+
 .bg-pastel-cream { background-color: #FFFBF7; }
 .card {
   
@@ -94,6 +94,6 @@
 }
 
 
-/* subtle shadow for small elements */
+
 .shadow-sm { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
 

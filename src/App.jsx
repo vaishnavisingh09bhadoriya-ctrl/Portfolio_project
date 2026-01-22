@@ -23,7 +23,7 @@ function scrollToSection() {
           <div className=' flex justify-center items-center gap-8 text-sm'>
            <div  className='nav-simple  text-shadow-lg'><button onClick={() => scrollToSection("home")}><a href="#home">Home</a></button></div>
            <div  className='nav-simple  text-shadow-lg'><button  onClick={() => scrollToSection("about")}><a href="#about">About</a></button></div>
-           <div  className='nav-simple  text-shadow-lg'><button onClick={() => scrollToSection("contact")}><a href="#contact">Contact</a></button></div>
+           <div  className='nav-simple text-shadow-lg'><button onClick={() => scrollToSection("contact")}><a href="#contact">Contact</a></button></div>
           </div>
 
           
@@ -77,7 +77,7 @@ function scrollToSection() {
             
           </section>
 
-          <section  className=" description flex flex-col items-center justify-center mb-8  border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
+          <section  className=" description flex flex-col md:flex-col items-center justify-center mb-8 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
             <div className='text-center m-8'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
             <div >
