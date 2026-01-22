@@ -81,14 +81,14 @@ function scrollToSection() {
             <div className='text-center m-8'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
             <div >
-            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full sm:w-3/4 md:w-1/2 lg:1/3'>
-              <div><label for="name" >Name:</label>
-            <input id="name" type='text' className='border-2 border-gray-400 m-5 rounded-lg bg-white shadow-lg'></input></div>
-             <div><label for="mail" >Email:</label>
-            <input id="mail" type='email' className='border-2 border-gray-400 m-5 rounded-lg bg-white shadow-lg'></input></div>
-            <div>
-              <label for="msg">Message:</label>
-              <textarea id="msg" className='flex items-center justify-center p-9 bg-white m-5 border-2 border-gray-400 shadow-lg rounded-lg'></textarea>
+            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full '>
+              <div className='flex flex-col md:flex-col items-center justify-center w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
+            <input id="name" type='text' className='border-2 border-gray-400 m-1  rounded-lg bg-white shadow-lg'></input></div>
+             <div className='flex flex-col md:flex-col items-center justify-center w-full'><div className='text-center mb-1'><label for="mail" >Email:</label></div>
+            <input id="mail" type='email' className='border-2 border-gray-400 m-1 rounded-lg bg-white shadow-lg'></input></div>
+            <div className='flex flex-col md:flex-col items-center justify-center w-full'>
+              <div className='text-center mb-1'><label for="msg">Message</label></div>
+              <textarea id="msg" className=' p-9 bg-white m-1 border-2 border-gray-400 shadow-lg rounded-lg'></textarea>
             </div>
             <div className='text-center m-10 '><button className='text-center btn-simple shadow-lg border-gray-400 '>Submit</button></div>
 
