@@ -82,11 +82,11 @@ function scrollToSection() {
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
             <div >
             <form className='flex flex-col items-center justify-center flex-wrap content-center w-full '>
-              <div className='flex flex-col md:flex-col items-center justify-center w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
+              <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
             <input id="name" type='text' className='border-2 border-gray-400 m-1  rounded-lg bg-white shadow-lg'></input></div>
-             <div className='flex flex-col md:flex-col items-center justify-center w-full'><div className='text-center mb-1'><label for="mail" >Email:</label></div>
+             <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'><div className='text-center mb-1'><label for="mail" >Email:</label></div>
             <input id="mail" type='email' className='border-2 border-gray-400 m-1 rounded-lg bg-white shadow-lg'></input></div>
-            <div className='flex flex-col md:flex-col items-center justify-center w-full'>
+            <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'>
               <div className='text-center mb-1'><label for="msg">Message</label></div>
               <textarea id="msg" className=' p-9 bg-white m-1 border-2 border-gray-400 shadow-lg rounded-lg'></textarea>
             </div>
