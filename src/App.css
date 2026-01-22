@@ -4,6 +4,7 @@
   html, body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -15,20 +16,59 @@
 /* Simple, beginner-friendly helpers */
 .bg-pastel-cream { background-color: #FFFBF7; }
 .card {
-  border: 1px dashed rgba(0,0,0,0.06);
-  padding: 10px;
-  border-radius: 8px;
-  background: white;
-  color: #333;
+  
+   display: inline-block;
+        opacity: 0;
+        transform: translateY(-40px)
+        ;
+        animation: slideDown 2s 
+        cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        
+  
+  
 }
+
+@keyframes slideDown {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+       }
+
+ .nav-simple {
+ font-weight: 600;
+  will-change: transform;
+  transition: transform 1.5 ease;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
+ }
+
+ .nav-simple:hover {
+   cursor: pointer;
+    transform: translateY(-5px) scale(1.05);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
+
+ }
+
 .btn-simple {
   display: inline-block;
-  background: #ff6beb;
+  background: rgb(110, 194, 244);
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
   font-weight: 600;
+  will-change: transform;
+  transition: transform 1.5 ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
+
+   
+        
 }
+.btn-simple:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
+}
+
+
 .btn-ghost {
   display: inline-block;
  
@@ -36,7 +76,23 @@
   padding: 8px 12px;
   border-radius: 6px;
   color: #333;
+  will-change: transform;
+  transition: transform 1.5 ease;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.129);
 }
+
+.btn-ghost:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
+}
+
+.skills:hover {
+  display: inline-block;
+  will-change: transform;
+  transition: transform 0.3s ease;
+  transform: translate(0px, -6px) scale(1.1);
+}
+
 
 /* subtle shadow for small elements */
 .shadow-sm { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
