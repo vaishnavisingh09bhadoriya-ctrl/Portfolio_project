@@ -81,7 +81,7 @@ function scrollToSection() {
             <div className='text-center m-8'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
             <div >
-            <form className='flex flex-col items-center justify-center flex-wrap content-center'>
+            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full'>
               <div><label for="name" >Name:</label>
             <input id="name" type='text' className='border-2 border-gray-400 m-5 rounded-lg bg-white shadow-lg'></input></div>
              <div><label for="mail" >Email:</label>
