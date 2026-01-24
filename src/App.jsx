@@ -77,20 +77,25 @@ function scrollToSection() {
             
           </section>
 
-          <section  className=" description flex flex-col md:flex-col items-center justify-center mb-8 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
-            <div className='text-center m-8'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
+          <section  className=" description flex flex-col md:flex-col items-center justify-center mb-2 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
+            <div className='text-center m-6'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
-            <div className='relative w-full max-w-md mx-auto p-6' >
-            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full space-y-4 '>
-              <div className='flex flex-col md:flex-col items-center justify-center m-2  w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
-            <input id="name" type='text' className='border-2 border-gray-400 p-3 m-1 w-full max-w-full resize-none rounded-lg bg-white shadow-lg'></input></div>
-             <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'><div className='text-center mb-1'><label for="mail" >Email:</label></div>
-            <input id="mail" type='email' className='border-2 border-gray-400 p-3 m-1 rounded-lg w-full max-w-full resize-none bg-white shadow-lg'></input></div>
-            <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'>
-              <div className='text-center mb-1'><label for="msg">Message</label></div>
-              <textarea id="msg" className=' p-3 bg-white m-1 border-2 border-gray-400 shadow-lg w-full max-w-full resize-none rounded-lg'></textarea>
-            </div>
-            <div className='text-center m-10 '><button className='text-center btn-simple shadow-lg border-gray-400 '>Submit</button></div>
+            <div className='relative w-full max-w-md mx-auto px-8 py-6' >
+            <form className='flex  items-center justify-center flex-wrap content-center w-full space-y-2 '>
+              <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+            <input id="name" type='text' className='border-2 border-gray-400 p-2 m-1 w-full max-w-full resize-none rounded-lg bg-white shadow-lg' placeholder='Name'></input></div>
+
+
+             <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+            <input id="mail" type='email'  className='border-2 border-gray-400 p-2 m-1 rounded-lg w-full max-w-full resize-none bg-white shadow-lg' placeholder='Email'></input></div>
+            
+
+<div className='flex items-center justify-center text-center mb-1 w-full py-5'>
+                <textarea id="msg" className='py-8 bg-white m-1 border-2 border-gray-400 shadow-lg w-full text-center max-w-full resize-none rounded-lg' placeholder='Your message'></textarea>
+              </div>
+              
+            
+            <div className='text-center m-5 '><button className='text-center btn-simple shadow-lg border-gray-400 '>Submit</button></div>
 
             </form>
             </div>
