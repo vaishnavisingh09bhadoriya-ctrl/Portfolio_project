@@ -65,7 +65,7 @@ function scrollToSection() {
 
           <section  id="projects" className=" card mb-6 px-6  flex flex-col items-center   justify-center "> <div className='text-center m-8'><h1  className='font-bold text-3xl'>Skills</h1></div>
             <div className='flex flex-wrap gap-6 md:flex-row justify-center '>
-            <div className=" skills mb-2 shadow-lg px-4 py-3 w-50 h-15 bg-linear-to-bl from-sky-200 to-white rounded-lg shadow-grey-100">HTML</div>
+            <div className=" skills mb-2 shadow-lg px-4 py-3 w-50 h-15 bg-linear-to-bl from-sky-200 to-white text-center rounded-lg shadow-grey-100">HTML</div>
             <div className=" skills mb-2 shadow-lg px-4 py-3 w-50 h-15  bg-linear-to-bl from-sky-200 to-white text-center rounded-lg shadow-grey-100">CSS</div>
             <div className=" skills mb-2 shadow-lg px-4 py-3 w-50 h-15  bg-linear-to-bl from-sky-200 to-white text-center rounded-lg shadow-grey-100">JavaScript</div>
             <div className=" skills mb-2 shadow-lg px-4 py-3 w-50 h-15 bg-linear-to-bl from-sky-200 to-white text-center rounded-lg shadow-grey-100">DOM</div>
@@ -80,15 +80,15 @@ function scrollToSection() {
           <section  className=" description flex flex-col md:flex-col items-center justify-center mb-8 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
             <div className='text-center m-8'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
-            <div >
-            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full '>
-              <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
+            <div className='relative w-full max-w-md mx-auto p-6' >
+            <form className='flex flex-col items-center justify-center flex-wrap content-center w-full space-y-4 '>
+              <div className='flex flex-col md:flex-col items-center justify-center m-2  w-full'><div className='text-center mb-1'><label for="name" >Name:</label></div>
             <input id="name" type='text' className='border-2 border-gray-400 m-1  rounded-lg bg-white shadow-lg'></input></div>
              <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'><div className='text-center mb-1'><label for="mail" >Email:</label></div>
             <input id="mail" type='email' className='border-2 border-gray-400 m-1 rounded-lg bg-white shadow-lg'></input></div>
             <div className='flex flex-col md:flex-col items-center justify-center m-2 w-full'>
               <div className='text-center mb-1'><label for="msg">Message</label></div>
-              <textarea id="msg" className=' p-9 bg-white m-1 border-2 border-gray-400 shadow-lg rounded-lg'></textarea>
+              <textarea id="msg" className=' p-9 bg-white m-1 border-2 border-gray-400 shadow-lg w-full max-w-full resize-none rounded-lg'></textarea>
             </div>
             <div className='text-center m-10 '><button className='text-center btn-simple shadow-lg border-gray-400 '>Submit</button></div>
 
