@@ -14,7 +14,94 @@
 }
 
 
-.bg-pastel-cream { background-color: #FFFBF7; }
+
+.container {
+
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+
+}
+.container-after {
+
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+
+}
+.button-after {
+background-color: rgb(14, 68, 101);
+top: 2;
+display: flex;
+align-items: center;
+justify-content: end;
+
+flex-wrap: wrap;
+width: 50%;
+max-width: 33px;
+margin: auto;
+height: 45%;
+border-radius: 200px;
+cursor: pointer;
+position: absolute;
+transition: 0.9s;
+overflow: hidden;
+ box-shadow: 0 2px 6px rgba(199, 182, 182, 0.17);
+}
+.button-after::before{
+    position: absolute;
+    content: '';
+   
+    background-color: rgb(250, 252, 254);
+    width: 13px;
+    height: 15px;
+    border-radius: 200px;
+    margin: 4px;
+   
+}
+
+.button {
+background-color: rgb(180, 212, 233);
+top: 2;
+display: flex;
+align-items: center;
+
+flex-wrap: wrap;
+width: 50%;
+max-width: 33px;
+margin: auto;
+height: 45%;
+border-radius: 200px;
+cursor: pointer;
+position: absolute;
+transition: 0.2s;
+overflow: hidden;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
+}
+
+.button::before{
+    position: absolute;
+    content: '';
+   
+    background-color: rgb(250, 252, 254);
+    width: 13px;
+    height: 15px;
+    border-radius: 200px;
+    margin: 4px;
+    
+}
+
+.inpt{
+    display: none;
+}
+
+
 .card {
   
    display: inline-block;
