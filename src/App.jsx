@@ -142,7 +142,7 @@ function App() {
            <div  className='nav-simple  text-shadow-lg'><button  onClick={() => scrollToSection("about")}><a href="#about">About</a></button></div>
            <div  className='nav-simple text-shadow-lg'><button onClick={() => scrollToSection("contact")}><a href="#contact">Contact</a></button></div>
            <div class="container" className='flex  items-center justify-center overflow-hidden  px-2 py-1 ml-1'>
-       <input type="checkbox" id="check"></input>
+       <input type="checkbox" id="check" className='inpt'></input>
         <label htmlFor="check" className="button"onClick={handleToggle}
 ></label></div>
            </div>
