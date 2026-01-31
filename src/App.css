@@ -37,7 +37,7 @@ overflow: hidden;
 }
 .button-after {
 background-color: rgb(14, 68, 101);
-top: 2;
+
 display: flex;
 align-items: center;
 justify-content: end;
@@ -68,7 +68,7 @@ overflow: hidden;
 
 .button {
 background-color: rgb(180, 212, 233);
-top: 2;
+
 display: flex;
 align-items: center;
 
