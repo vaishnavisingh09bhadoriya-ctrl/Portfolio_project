@@ -138,7 +138,7 @@ overflow: hidden;
 
 .btn-simple {
   display: inline-block;
-  background: rgb(110, 194, 244);
+  background: rgb(139, 202, 239);
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
@@ -159,7 +159,7 @@ overflow: hidden;
 .btn-ghost {
   display: inline-block;
  
-  background-color: #FFFBF7;
+  background-color: #fffffe;
   padding: 8px 12px;
   border-radius: 6px;
   color: #333;
@@ -172,6 +172,44 @@ overflow: hidden;
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
 }
+
+.btn-dark-simple {
+  display: inline-block;
+  background: rgb(46, 104, 137);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  will-change: transform;
+  transition: transform 1.5 ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
+
+   
+        
+}
+.btn-dark-simple:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
+}
+
+
+.btn-dark-ghost {
+  display: inline-block;
+ 
+  background-color: #e7e9ea;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #333;
+  will-change: transform;
+  transition: transform 1.5 ease;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.129);
+}
+
+.btn-dark-ghost:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.429);
+}
+
 
 .skills:hover {
   display: inline-block;

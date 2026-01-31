@@ -21,7 +21,7 @@ function App() {
       <div className=" max-w-6xl mx-auto   "> 
           
    
-               {darkMode ? <div id='wbody'  className=" min-h-screen bg-linear-to-bl from-sky-700 to-gray-800 text-white   antialiased">
+               {darkMode ? <div id='wbody'  className=" min-h-screen bg-linear-to-bl from-sky-700 to-gray-800 text-gray-100   antialiased">
       <div className=" max-w-6xl mx-auto   ">
 
         
@@ -59,8 +59,8 @@ function App() {
               <p className='text-sm text-center m-8  py-7'>Hi! I'm a Frontend developer who creates modern, clean, interactive websites.</p>
              
               <div className='flex items-center justify-center space-x-4 m-8'>
-                 <button className='text-sm btn-simple'> <a href='https://github.com/discussions' target='blank'>let's connect</a></button>
-              <button className='text-sm btn-ghost'> <a href='https://github.com/vaishnavisingh09bhadoriya-ctrl?tab=repositories' target='blank'>see my work</a></button>
+                 <button className='text-sm btn-dark-simple'> <a href='https://github.com/discussions' target='blank'>let's connect</a></button>
+              <button className='text-sm btn-dark-ghost'> <a href='https://github.com/vaishnavisingh09bhadoriya-ctrl?tab=repositories' target='blank'>see my work</a></button>
               </div>
               </div>
               
@@ -95,24 +95,24 @@ function App() {
           <section  className=" description flex flex-col md:flex-col items-center justify-center mb-2 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
             <div className='text-center m-6'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
-            <div className='relative w-full max-w-md mx-auto px-8 py-6' >
+            <div className='relative w-full max-w-md mx-auto px-2 md:px-8 py-6' >
             <form className='flex flex-col items-center justify-center flex-wrap content-center w-full'>
-              <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+              <div className='flex items-center justify-center m-2 px-1 md:px-8 py-0 w-full'>
 
             <input id="name" type='text' className='border-2 border-gray-400  p-2 m-1 w-full max-w-full resize-none rounded-lg  shadow-lg' placeholder='Name'></input></div>
 
 
-             <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+             <div className='flex items-center justify-center m-2 px-1 md:px-8 py-0 w-full'>
             <input id="mail" type='email'  className='border-2 border-gray-400 p-2 m-1 rounded-lg w-full max-w-full resize-none shadow-lg' placeholder='Email'></input></div>
             
 
-<div className='flex items-center justify-center text-center mb-1 w-full py-5'>
+<div className='flex items-center justify-center text-center mb-1 w-full px-1 md:px-8 py-0'>
                 <textarea id="msg" className='py-8 m-1 border-2 border-gray-400 shadow-lg w-full text-center max-w-full resize-none rounded-lg' placeholder='Your message'></textarea>
               </div>
 
              
             
-            <div className='text-center m-5 '><button className='text-center btn-simple shadow-lg border-gray-400 '>Submit</button></div>
+            <div className='text-center m-5 '><button className='text-center btn-dark-simple shadow-lg border-gray-400 '>Submit</button></div>
 
             </form>
             </div>
@@ -199,18 +199,18 @@ function App() {
           <section  className=" description flex flex-col md:flex-col items-center justify-center mb-2 m-5 border-gray-300 border-2 rounded-lg px-6 shadow-lg "> 
             <div className='text-center m-6'><h2  className=' font-bold text-3xl text-shadow-lg'>Describe your <span className='text-sky-400'>idea?</span> </h2>
             <p className='mt-2 text-sm'>This is a frontend-only project. The purpose is to demostrate UI design. The form is intentionally not functional</p></div>
-            <div className='relative w-full max-w-md mx-auto px-8 py-6' >
+            <div className='relative w-full max-w-md mx-auto  px-2 md:px-8  py-6' >
             <form className='flex  items-center justify-center flex-wrap content-center w-full space-y-2 '>
-              <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+              <div className='flex items-center justify-center m-2 px-1 md:px-8 py-0 w-full'>
 
             <input id="name" type='text' className='border-2 border-gray-400  p-2 m-1 w-full max-w-full resize-none rounded-lg bg-white shadow-lg' placeholder='Name'></input></div>
 
 
-             <div className='flex items-center justify-center m-2 px-8 py-0 w-full'>
+             <div className='flex items-center justify-center m-2 px-1 md:px-8 py-0 w-full'>
             <input id="mail" type='email'  className='border-2 border-gray-400 p-2 m-1 rounded-lg w-full max-w-full resize-none bg-white shadow-lg' placeholder='Email'></input></div>
             
 
-<div className='flex items-center justify-center text-center mb-1 w-full py-5'>
+<div className='flex items-center justify-center text-center mb-1 w-full px-1 md:px-8 py-0'>
                 <textarea id="msg" className='py-8 bg-white m-1 border-2 border-gray-400 shadow-lg w-full text-center max-w-full resize-none rounded-lg' placeholder='Your message'></textarea>
               </div>
               
